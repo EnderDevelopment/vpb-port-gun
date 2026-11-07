@@ -1,0 +1,16 @@
+name: PortGun
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  portgun:
+    description: Gives a low-performance teleport port gun.
+    usage: /portgun
+    aliases: [pg]
+permissions:
+  portgun.use:
+    description: Allows use of the port gun.
+    default: true
+  portgun.give:
+    description: Allows giving the port gun.
+    default: op
